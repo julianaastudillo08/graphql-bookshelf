@@ -1,0 +1,18 @@
+{
+  "name": "graphql-bookshelf",
+  "version": "1.0.0",
+  "description": "GraphQL API de biblioteca con Apollo Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["graphql", "apollo", "nodejs", "api"],
+  "author": "Juliana Chantre Astudillo",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
